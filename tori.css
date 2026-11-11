@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+header{background-image: url(img/encabezado.png);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 100;
+    padding: 10px;
+    padding-left:10% ;
+    padding-right: 10%;
+  display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.logo{height:100px;
+}
+.personajes{display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 100px;
+padding-right: 20%;
+color: #fffe90}
+
+h3{color:#fffe90 ;
+font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;}
+
+body{ background-image: url(img/fondotori.jpg);
+background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+background-attachment: fixed;
+}
+
+h2{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size:30px;
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+
+h6{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size:11px;
+}
+
+p{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color: #000000;
+    font-size:16px;
+}
+
+h5{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color: #de0c7b;
+    font-size:16px;
+    margin-top: 6px;
+    margin-left: 10px;
+    padding-right: 2px;
+}
+
+h4{
+    margin-top: 6px;
+    margin-left: 10px;
+    padding-right: 2px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size:14px;
+    color: #5e06e1
+
+}
+
+.boton-quiz {
+    position: fixed;       
+    right: 0;              
+    top: 50%;              
+    transform: translateY(-50%);  
+    z-index: 9999;         
+    display: block;        
+    transition: transform 0.3s ease; 
+}
+.boton-quiz img {
+    width: 150px;        
+    height: auto;
+    display: block;
+}
+.boton-quiz:hover { 
+    transform: translateY(-50%) scale(1.05);
+}
+
+.videoyfoto{
+    width: 500px;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 6%;
+    a {
+    margin-right:1%;}
+    display: flex; 
+    align-items: center; 
+
+}
+.tori-vega {
+    position: absolute;
+    margin-left: 53%;
+    margin-top: -14.5%;
+    width: 555px;
+    padding: 20px;
+    border: 4px solid #fffe90;
+    background: #baebff;
+    background: linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    background: -webkit-linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    background: -moz-linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    border-radius: 20px;
+}
+.tori-vega h6 {
+    text-align: left;
+    color: #000000;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.tori-vega p {
+    text-align: center;
+    color: #000000;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.estado{
+    background-color: #7de0fe;
+    position: absolute;
+    margin-left: 53%;
+    margin-top: -4%;
+    width: 595px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    margin-right: 3px;
+    border: 4px solid #fffe90;
+    border-radius: 20px;
+    display: flex
+   
+}
+.emoji1{
+    width: 25px;  
+    height: 27px;
+    left: 50px;
+}
+.estado h5, .estado h6 {
+    align-items: center;
+}
+
+.quienes {
+    position: absolute;
+    margin-left: 11.5%;
+    margin-top: 5%;
+    width: 1290px;
+    padding: 20px;
+    border: 4px solid #fffe90;
+    background: #baebff;
+    background: linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    background: -webkit-linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    background: -moz-linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    border-radius: 20px;
+}
+.quienes p {
+    text-align: left;
+    color: #000000;
+}
+
+.mejoresmomentos{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+    color: #fffe90;
+    font-size:30px;
+    margin-left: 6%;
+    margin-top: 16%;
+}
+.videos{
+    width: 1340px;
+    height: auto;
+    margin-left: 12%;
+    margin-right: 6%;
+    margin-bottom: 4%;
+    a {
+    margin-right: 2%;}
+    display: inline-block;
+}
+
+footer {
+    background-image: url(img/pie.png);
+    width: 103.5%;
+    height: 360px;
+    margin-left: -2%;
+    margin-right: -50;
+    margin-bottom: -10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.logo2 {
+    width: 650px;
+    height: 130px;
+    padding-top: 5%;
+    display: block; 
+    margin: 0 auto;
+}
+ 
+h6 {
+    color: #fffe90;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+ 
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; 
+    padding: 10px ;
+    width: 100%;
+}
+.iconos img {
+    width: 35px;
+    height: 30px;
+}
